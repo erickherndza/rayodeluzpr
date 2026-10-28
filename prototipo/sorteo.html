@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es-PR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f3f2d9">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Un Rayo Nuestro | Rayo de Luz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;700&family=Unbounded:wght@500;600;700;800;900&family=Yellowtail&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="sin-barra" data-pagina="sorteo">
+  <main data-sorteo>
+    <section class="seccion pagina-sorteo">
+      <div class="contenedor ancho-detalle">
+        <div class="migas"><a href="sorteos.html">‹ Sorteos</a></div>
+
+        <div class="detalle">
+          <div class="galeria" data-galeria role="region" aria-roledescription="carrusel" aria-label="Imágenes de la obra"></div>
+
+          <div class="panel-sorteo">
+            <div class="titulo-fila">
+              <h1>Un Rayo Nuestro</h1>
+              <button class="compartir" type="button" data-compartir>Compartir</button>
+            </div>
+
+            <div class="cierre-bloque">
+              <p class="cierre-etiqueta" data-cierre-titulo>Falta para el sorteo en vivo</p>
+              <div data-cierre-slot></div>
+            </div>
+
+            <div class="tarjeta-interna">
+              <ol class="linea-tiempo" aria-label="Fechas del sorteo" data-linea-tiempo></ol>
+            </div>
+
+            <div class="tarjeta-interna" data-avance-detalle></div>
+
+            <div class="tarjeta-interna compra">
+              <h2 class="izq compra-titulo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0zM7 6H4v2a3 3 0 0 0 3 3M17 6h3v2a3 3 0 0 1-3 3"/></svg><span>Compra arte digital y participa</span></h2>
+              <h3 class="destacados">Destacados</h3>
+              <ul class="destacados-lista">
+                <li>Cada boleto cuesta <strong data-precio></strong> y tiene un número único. Puedes comprar de 1 a 1,000.</li>
+                <li>Recibirás tu arte digital y la confirmación de tu participación por correo electrónico.</li>
+                <li>Tus números se asignan al azar al confirmar el pago y nunca se repiten.</li>
+                <li>Todos los precios están expresados en dólares estadounidenses (USD).</li>
+              </ul>
+
+              <div class="paquetes" role="group" aria-label="Paquetes de boletos">
+                <button class="paquete" type="button" data-paquete="1" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9a2 2 0 0 0 0 6v3h18v-3a2 2 0 0 1 0-6V6H3zM14 6v12" stroke-dasharray="2 3"/></svg><span></span><small>(1 boletos)</small></button>
+                <button class="paquete" type="button" data-paquete="5" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9a2 2 0 0 0 0 6v3h18v-3a2 2 0 0 1 0-6V6H3zM14 6v12" stroke-dasharray="2 3"/></svg><span></span><small>(5 boletos)</small></button>
+                <button class="paquete" type="button" data-paquete="10" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9a2 2 0 0 0 0 6v3h18v-3a2 2 0 0 1 0-6V6H3zM14 6v12" stroke-dasharray="2 3"/></svg><span></span><small>(10 boletos)</small></button>
+                <button class="paquete" type="button" data-paquete="25" aria-pressed="false"><em class="etiqueta">Popular</em><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9a2 2 0 0 0 0 6v3h18v-3a2 2 0 0 1 0-6V6H3zM14 6v12" stroke-dasharray="2 3"/></svg><span></span><small>(25 boletos)</small></button>
+                <button class="paquete" type="button" data-paquete="100" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9a2 2 0 0 0 0 6v3h18v-3a2 2 0 0 1 0-6V6H3zM14 6v12" stroke-dasharray="2 3"/></svg><span></span><small>(100 boletos)</small></button>
+                <button class="paquete" type="button" data-paquete="500" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9a2 2 0 0 0 0 6v3h18v-3a2 2 0 0 1 0-6V6H3zM14 6v12" stroke-dasharray="2 3"/></svg><span></span><small>(500 boletos)</small></button>
+              </div>
+
+              <div class="otra-cantidad">
+                <label for="cantidad">Otra cantidad (de 1 a 1,000)</label>
+                <div class="paso-cantidad">
+                  <button type="button" data-menos aria-label="Quitar un boleto">−</button>
+                  <input id="cantidad" type="number" inputmode="numeric" min="1" max="1000" value="5" aria-describedby="error-cantidad">
+                  <button type="button" data-mas aria-label="Agregar un boleto">+</button>
+                </div>
+                <p class="mensaje-error" id="error-cantidad" data-error role="alert"></p>
+              </div>
+
+              <p class="resumen-compra"><span data-resumen>5 boletos</span> · <strong data-total>$5.00</strong></p>
+              <button class="boton ancho participar" type="button" data-continuar>Participar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="acordeones faq">
+          <details>
+            <summary>Descripción del arte</summary>
+            <div class="respuesta">
+              <dl class="ficha"><div><dt>Título</dt><dd>Un Rayo Nuestro</dd></div><div><dt>Artista</dt><dd>Rayo de Luz</dd></div><div><dt>Año</dt><dd>2026</dd></div></dl>
+              <p>El San Pedrito, frente a nuestra bandera, representa la esencia de Puerto Rico: pequeña en tamaño, inmensa en fuerza. Una obra inspirada en nuestras raíces, nuestra esperanza y esa luz que siempre encuentra la manera de abrirse paso.</p>
+              <p>Con la compra de este arte estarías participando para ganarte el sistema solar o $50,000 en efectivo, $10,000 en efectivo o $5,000 en efectivo.</p>
+            </div>
+          </details>
+          <details id="acc-premios">
+            <summary>Premios</summary>
+            <div class="respuesta">
+              <h4>1er premio: Sistema solar o $50,000 en efectivo</h4>
+              <p>Escoge entre un sistema solar diseñado para un hogar con un consumo aproximado de $500 mensuales en energía eléctrica, o $50,000 en efectivo. Incluye 33 paneles solares de 445 W con 33 microinversores Enphase IQ8-H y 40 kWh en baterías Enphase, instalación por Evolution Solar y permisos con LUMA (medición neta).</p>
+              <h4>2do premio: $10,000 en efectivo</h4>
+              <p>Un impulso económico de $10,000 para usarlo en lo que más necesites.</p>
+              <h4>3er premio: $5,000 en efectivo</h4>
+              <p>$5,000 que pueden convertirse en ese Rayo de Luz que estabas esperando.</p>
+              <p><a href="preguntas.html">Ver todo lo que incluye y no incluye el premio</a></p>
+            </div>
+          </details>
+          <details>
+            <summary>Reglas del sorteo</summary>
+            <div class="respuesta">
+              <p>Cada campaña opera bajo términos y condiciones publicados, claros y verificables. Tu confianza es parte de nuestro propósito.</p>
+              <p>Los sorteos se transmiten en vivo y los supervisa un notario público. Publicamos cada acta oficial.</p>
+              <p><a href="reglas.html">Leer las reglas oficiales completas</a></p>
+            </div>
+          </details>
+          <details>
+            <summary>Términos y condiciones</summary>
+            <div class="respuesta"><p><a href="terminos.html">Leer los términos y condiciones completos</a> · <a href="privacidad.html">Política de privacidad</a></p></div>
+          </details>
+          <details>
+            <summary>Preguntas y respuestas</summary>
+            <div class="respuesta">
+              <h4>¿Y si gano el primer lugar pero mi casa no es apta para instalar placas solares?</h4>
+              <p>Si tu propiedad no cualifica técnicamente para la instalación o simplemente prefieres el dinero, puedes optar directamente por los $50,000.00 en efectivo.</p>
+              <p><a href="preguntas.html">Ver todas las preguntas</a></p>
+            </div>
+          </details>
+          <details>
+            <summary>Información de Rayo de Luz</summary>
+            <div class="respuesta">
+              <p>Brindamos un alivio real y directo a las familias de Puerto Rico mediante la comercialización de arte digital con propósito, transformando cada compra en una oportunidad de soporte económico, estabilidad y tranquilidad para el hogar.</p>
+              <p><a href="historia.html">Conoce nuestra historia</a></p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="barra-pago barra-movil">
+    <div><small data-resumen>5 boletos</small><strong data-total>$5.00</strong></div>
+    <button class="boton sol" type="button" data-continuar>Continuar</button>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>

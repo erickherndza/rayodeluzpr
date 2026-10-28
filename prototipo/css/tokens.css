@@ -1,0 +1,45 @@
+/* Tokens de Rayo de Luz, tomados de rayodeluzpr.com:
+   colores del logo y del sitio; Benzin (títulos) y Belinda (script) son sus fuentes.
+   Benzin y Belinda son comerciales: aquí se usan equivalentes gratuitos (Unbounded y Yellowtail)
+   hasta tener los archivos con licencia. Para cambiarlas, solo se editan estas dos variables. */
+:root {
+  --noche: #0d3b42;          /* azul petróleo: títulos y fondo oscuro del sitio */
+  --dorado: #c9aa61;          /* fondo de "Nuestro proceso transparente" en la web de la cliente */
+  --noche-profunda: #092a30;
+  --brasa: #ba4307;          /* naranja óxido: letras del logo y subtítulos */
+  --brasa-oscura: #8f3205;
+  --sol: #ebdc77;            /* amarillo del rayo del logo */
+  --amanecer: #f5a623;       /* ámbar del degradado de la portada */
+  --crema: #f3f2d9;          /* fondo del sitio */
+  --blanco: #fffdf2;
+  --cielo: #96b0c6;          /* azul de la página Nuestra Historia */
+  --tinta: #0a2a30;
+  --tinta-suave: #3b5a5f;
+
+  --fuente-titulo: "Unbounded", system-ui, sans-serif;           /* equivalente de Benzin */
+  --fuente-script: "Yellowtail", "Brush Script MT", cursive;      /* equivalente de Belinda */
+  --fuente-texto: "Atkinson Hyperlegible Next", system-ui, sans-serif;
+
+  --paso--1: 0.875rem;
+  --paso-0: 1rem;
+  --paso-1: 1.25rem;
+  --paso-2: 1.625rem;
+  --paso-3: clamp(2rem, 8.5vw, 3.25rem);
+
+  /* Sistema tipográfico: títulos Unbounded, subtítulos script (frases cortas), copy Atkinson */
+  --t-h1: clamp(2.5rem, 9vw, 5rem);
+  --t-h2: clamp(1.9rem, 7vw, 3.6rem);
+  --t-h3: clamp(1.25rem, 4.5vw, 1.75rem);
+  --t-h3-card: clamp(1.3rem, 1.1rem + .6vw, 1.55rem); /* título dentro de tarjetas: siempre mayor que su texto */
+  --t-sub: clamp(1.9rem, 6.5vw, 3rem);
+  --t-cuerpo: clamp(1.125rem, 1rem + .35vw, 1.3rem);
+  --t-etiqueta: .9375rem;
+  --t-menor: .875rem;
+
+  --gutter: 20px;
+  --radio: 18px;
+  --alto-barra: 68px;
+
+  /* Escala de espacios (múltiplos de 8) */
+  --e1: 8px; --e2: 16px; --e3: 24px; --e4: 32px; --e5: 48px; --e6: 64px;
+}

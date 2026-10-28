@@ -1,0 +1,4 @@
+# Demo privada de Rayo de Luz: no indexar
+# Publicada en GitHub Pages: erickherndza.github.io/rayodeluzpr
+User-agent: *
+Disallow: /
